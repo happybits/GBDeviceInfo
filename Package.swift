@@ -26,10 +26,11 @@ let package = Package(
             name: "GBDeviceInfo",
             dependencies: [],
 			path: "GBDeviceInfo",
+            exclude: ["Supporting Files", ".gitignore", "GBDeviceInfo-Info.plist"],
 			sources: ["GBDeviceInfo_Common.m", "GBDeviceInfo_iOS.m","GBDeviceInfo_OSX.m"],
-			publicHeadersPath: ""
+			publicHeadersPath: "include"
 		),
-		
+
 		// required GBJailbreakDetection to be converted to package
 //		.target(
 //			name: "iOS jailbreak",
