@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "GBDeviceInfo",
 	platforms: [
-		.iOS(.v8),
+		.iOS(.v12),
 		.macOS(.v10_10)
     ],
     products: [
